@@ -1,0 +1,30 @@
+.font-inter {
+    font-family: "Inter", sans-serif;   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared style */
+.btn{
+    color: white;
+    width: 135px;
+    height: 44px;
+    border-radius: 10000px;
+    background: linear-gradient(106deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    border: 0px solid none;
+
+}
+nav{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+.menu{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
