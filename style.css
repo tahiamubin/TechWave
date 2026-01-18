@@ -17,7 +17,8 @@
     border: 0px solid none;
 
 }
-.btn:hover{
+
+.btn:hover {
     transition: 0.5s;
     color: #1A0B2E;
 }
@@ -31,14 +32,16 @@
     padding: 12px 20px 12px 20px;
     text-align: center;
 }
-.btn:hover{
+
+.btn:hover {
     transition: 0.5s;
     color: #1A0B2E;
 }
+
 .normal-btn:hover {
-   background-color: #00FF88;
-   color: #1A0B2E;
-   transition: 0.5s;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    transition: 0.5s;
 }
 
 .gradient-text {
@@ -71,6 +74,11 @@ nav {
 }
 
 /* hero-section */
+.hero-section {
+    overflow: hidden;
+    min-height: 100vh;
+}
+
 .image {
     position: relative;
     display: inline-block;
@@ -79,7 +87,7 @@ nav {
 
 .new {
     position: absolute;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
     border: 0px solid;
     background-color: #00FF88;
@@ -103,18 +111,18 @@ nav {
 
     display: block;
     margin: 0 auto;
-    margin-bottom: 400px;
-    margin-top: -260px;
+    /* margin-bottom: 400px; */
+    margin-top: -300px;
 }
 
 .hero-heading h1 {
-    font-size: 60px;
+    font-size: 3.8rem;
     font-weight: 800;
     color: white;
 }
 
 .hero-heading p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: white;
 }
@@ -135,8 +143,7 @@ nav {
 .hero-down {
     position: relative;
     display: inline;
-    top: -300PX;
-
+    top: 140px;
 }
 
 .hero-content {
@@ -145,5 +152,53 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
 
+/* main section */
+
+#about {
+    background-color: #1A0B2E;
+}
+
+.about-content {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.about-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.about-content h4 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+.about-content p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    margin-top: 24px;
+}
+
+.card-box h1 {
+    font-size: 3rem;
+    color: #00FF88;
+    font-weight: 700;
+}
+
+.card-box p {
+    font-size: 1rem;
+    color: white;
+}
+
+.about-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 80px;
 }
