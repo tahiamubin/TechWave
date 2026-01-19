@@ -249,7 +249,7 @@ nav {
 .audio p,
 .mobile p,
 .gobal p,
-.interview p ,
+.interview p,
 .resource p {
     font-size: 1rem;
     font-weight: 100;
@@ -296,8 +296,88 @@ nav {
         "interview interview resource"
 }
 
+/* episode */
+.episodes {
+    background-color: #1A0B2E;
+    padding: 120px;
+}
 
+.featured-episode {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
+}
+
+.epi-vido {
+    flex: 1;
+    min-width: 300px;
+    padding-bottom: 120px;
+   
+}
+
+.epi-vido iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+     height: auto;
+     border-radius: 10px;
+}
+
+.content-heading{
+    font-size: 3.6rem;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.epi-box{
+    display: flex;
+    background-color: rgba(53, 17, 101, 0.4);
+     border-radius: 20px;
+     padding: 40px;
+     gap: 16px;
+}
+.box-text , .vdo-text p{
+    
+    font-size: 1rem;
+    color: white;
+    font-weight: 100;
+    max-width: 1200px;
+   
+   
+}
+.content-heading {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+   
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.check-time{
+    color: #00FF88;
+}
+.vdo-text h1{
+ font-size: 24px;
+ font-weight: bold;
+ color: white;
+}
+.vdo-text{
+    background-color: rgba(37, 13, 68, 1);
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.box-icon{
+    display: flex;
+    gap: 10px;
+   padding: 16px;
+}
 
 /* footer */
 .footer-content .logo {
