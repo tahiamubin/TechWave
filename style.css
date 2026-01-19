@@ -31,6 +31,9 @@
     border: 1px solid #00FF88;
     padding: 12px 20px 12px 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .btn:hover {
@@ -313,70 +316,78 @@ nav {
     flex: 1;
     min-width: 300px;
     padding-bottom: 120px;
-   
+
 }
 
 .epi-vido iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
-     height: auto;
-     border-radius: 10px;
+    height: auto;
+    border-radius: 10px;
 }
 
-.content-heading{
+.content-heading {
     font-size: 3.6rem;
     color: white;
     font-weight: bold;
     align-items: center;
     padding-bottom: 40px;
 }
-.epi-box{
+
+.epi-box {
     display: flex;
     background-color: rgba(53, 17, 101, 0.4);
-     border-radius: 20px;
-     padding: 40px;
-     gap: 16px;
+    border-radius: 20px;
+    padding: 40px;
+    gap: 16px;
 }
-.box-text , .vdo-text p{
-    
+
+.box-text,
+.vdo-text p {
+
     font-size: 1rem;
     color: white;
     font-weight: 100;
     max-width: 1200px;
-   
-   
+
+
 }
+
 .content-heading {
     font-size: 2rem;
     color: white;
     font-weight: bold;
     text-align: center;
     padding-bottom: 40px;
-   
+
 }
-.check{
+
+.check {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.check-time{
+
+.check-time {
     color: #00FF88;
 }
-.vdo-text h1{
- font-size: 24px;
- font-weight: bold;
- color: white;
-}
-.vdo-text{
-    background-color: rgba(37, 13, 68, 1);
- border-radius: 10px;
- padding: 10px;
+
+.vdo-text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
-.box-icon{
+.vdo-text {
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box-icon {
     display: flex;
     gap: 10px;
-   padding: 16px;
+    padding: 16px;
 }
 
 /* footer */
