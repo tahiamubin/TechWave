@@ -96,7 +96,7 @@ nav {
     border-radius: 1000px;
     text-align: center;
     padding: 5px;
-    top: 150px;
+    top: 130px;
     left: 750px;
 
 }
@@ -204,16 +204,117 @@ nav {
     gap: 80px;
 }
 
+/* choose-grid */
+.choose {
+    background-color: #230E3D;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 120px;
+}
+
+.choose-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+}
+
+.choose-grid>* {
+    border: 0px solid white;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+
+
+}
+
+.audio img,
+.mobile img {
+    padding-bottom: 16px;
+}
+
+.audio h1,
+.mobile h1,
+.gobal h1,
+.interview h1,
+.resource h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.audio p,
+.mobile p,
+.gobal p,
+.interview p ,
+.resource p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.audio {
+    grid-area: audio;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.mobile {
+    grid-area: mobile;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gobal {
+    grid-area: global;
+    padding: 40px;
+}
+
+.interview {
+    grid-area: interview;
+    padding: 40px;
+}
+
+.resource {
+    grid-area: resource;
+    padding: 40px;
+}
+
+.choose-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        "audio mobile mobile"
+        "audio global global"
+        "interview interview resource"
+}
+
+
+
+
 /* footer */
-.footer-content .logo ,.gradient-text{
+.footer-content .logo {
     font-size: 60px;
 }
-.footer-img{
+
+.footer-content .gradient-text {
+    font-size: 60px;
+}
+
+.footer-img {
     position: relative;
     display: inline-block;
 
 }
-.footer-content{
+
+.footer-content {
     position: absolute;
     text-align: center;
     margin: 0 auto;
@@ -222,15 +323,17 @@ nav {
     margin-right: 500px;
     padding: 16px;
 }
-.icon-part{
-    display: flex;
-    font-size: 1rem; 
+
+.icon-part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1rem;
     justify-content: center;
     gap: 40px;
     color: white;
 }
 
-.last{
+.last {
     padding: 16px;
     font-size: 0.8rem;
     color: white;
