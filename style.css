@@ -563,7 +563,6 @@ nav {
     .hero-section {
         background-image: url(assets/Image.png);
         background-image: cover;
-        margin-bottom: -70%;
         position: relative;
     }
 
@@ -571,7 +570,7 @@ nav {
         position: relative;
     } */
 
-    .circle {
+    /* .circle {
         background-image: url(assets/ci);
 
     }
@@ -593,6 +592,6 @@ nav {
         top: 30%;
         left: 46%;
 
-    }
- 
+    } */
+
 }
