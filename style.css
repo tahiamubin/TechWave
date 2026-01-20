@@ -431,66 +431,7 @@ nav {
 }
 
 
-@media screen and (max-width:576px) {
-    .about-card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-left: 20px;
-        padding-right: 20px;
-        gap: 40px;
-    }
 
-    .choose-heading {
-        font-size: 1.5rem;
-        padding-top: 40px;
-        padding-bottom: 20px;
-    }
-
-    .choose-grid {
-        display: grid;
-        grid-template-areas: "audio" "mobile" "global" "interview" "resource"
-    }
-
-    .choose {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-    }
-
-    .featured-episode {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .episodes {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .epi-vido {
-        padding-bottom: 20px;
-    }
-
-    .episodes {
-        padding: 20px;
-    }
-
-    .epi-box {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .footer-content .logo,
-    .footer-content .gradient-text {
-        font-size: 40px;
-    }
-    
-
-
-
-}
 
 @media screen and (max-width:576px) {
     nav .menu {
@@ -644,8 +585,6 @@ nav {
 
     }
 
-
-
     .microphone {
 
         position: absolute;
@@ -655,4 +594,5 @@ nav {
         left: 46%;
 
     }
+ 
 }
