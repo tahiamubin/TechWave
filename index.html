@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="responsive.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
@@ -20,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="font-inter">
+  <body class="font-inter" >
     <header>
       <nav>
         <div class="logo">
@@ -37,18 +38,18 @@
       </nav>
 
       <!-- hero-section -->
-      <section class="hero-section">
-        <div class="hero-img">
-          <div class="image">
-            <img class="bg-img"   src="assets/hero-bg.png" alt="" />
-            <img class="circle" src="assets/hero-circle.png" alt="" />
-            <img class="microphone" src="assets/microphone.png" alt="" />
-          </div>
-          <div class="new">
-            <p>new</p>
-          </div>
-        </div>
-        <div class="hero-down">
+     <section class="hero-section">
+      <div class="img-section">
+        <div class="img">
+        <img src="assets/hero-circle.png" alt="" class="circle">
+        <img src="assets/microphone.png" alt="" class="microphone">
+        <button class="normal-btn">
+          <p>New</p>
+        </button>
+      </div>
+      </div>
+
+       <div class="hero-down">
           <div class="hero-content">
             <div class="hero-heading">
               <h1>TailWave</h1>
@@ -62,13 +63,15 @@
             <button class="btn">
               <i class="fa-brands fa-spotify"></i> Listen On Spotify</i>
             </button>
-            <div class="normal-btn">
+            <div class="Subscribe">
               <img src="assets/message.png" alt="" />
               <button>Subscribe</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>     
+     </section>
+
     </header>
 
     <main>
@@ -303,13 +306,10 @@
     </main>
     <footer>
       <div class="footer-img">
-        <img src="assets/footer-bg.png" alt="" />
-      </div>
-      <div class="footer-content">
-        <div class="logo">
-          <h1>Tech<span class="gradient-text">Wave</span></h1>
-        </div>
-        <div class="icon-part">
+
+        <div class="footer-container">
+          <h1 class="logo">Tech<span class="gradient-text">Wave</span></h1>
+          <div class="icon-part">
           <div class="footer-icon">
             <p>Spotify</p>
           </div>
@@ -323,10 +323,15 @@
             <p>Twitter</p>
           </div>
         </div>
+        
+        </div>
         <div class="last">
           <p>© 2026 TechWave Podcast. All rights reserved.</p>
         </div>
+
+      
       </div>
+      
     </footer>
   </body>
 </html>
