@@ -48,6 +48,7 @@
     gap: 4px;
     font-weight: 800;
 }
+
 .normal-btn:hover {
     transform: rotate(45deg);
     transition: 0.5s;
@@ -67,7 +68,8 @@
     gap: 4px;
     font-weight: 800;
 }
-.Subscribe:hover{
+
+.Subscribe:hover {
     color: #1A0B2E;
     background-color: #00FF88;
     transition: 0.5s;
@@ -138,7 +140,8 @@ nav {
     transform: translate(-50%, -50%);
     z-index: 2;
 }
-.microphone:hover{
+
+.microphone:hover {
     transform: rotate(180deg);
     transition: 0.5s;
 }
@@ -149,6 +152,13 @@ nav {
     font-weight: 800;
     color: white;
     text-align: center;
+}
+
+.hero-heading h1:hover {
+    background: linear-gradient(106deg, #F7E93F 40%, #FB09B4 51%, #9100F8 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
 }
 
 .hero-heading p {
@@ -396,7 +406,8 @@ nav {
 .footer-img {
     background-image: url('assets/footer-bg.png');
 }
-.footer-container{
+
+.footer-container {
     padding: 60px;
     text-align: center;
 }
