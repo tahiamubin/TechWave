@@ -87,5 +87,14 @@
         font-size: 0.8rem;
         text-align: center;
     }
+    .icon-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    font-size: 1rem;
+    /* gap: 40px; */
+    color: white;
+}
+
 
 }
